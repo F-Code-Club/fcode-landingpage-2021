@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 
 import { useHistory } from 'react-router-dom';
 
-import background from '../../assets/form/Frame.svg';
+// import background from '../../assets/form/Frame.svg';
 import { put } from '../../utils/Apicaller';
 import Popup from './popup';
 import {
@@ -204,7 +204,7 @@ const Form = () => {
                 </FormContent>
                 <ImageContainer>
                     <FormImage
-                        data={background}
+                        // data={background}
                         ref={svg}
                         onLoad={animate}
                         area-label="sheild"

@@ -45,9 +45,7 @@ const LandingPage = () => {
                 <Route exact path="/register">
                     <Register />
                 </Route>
-                <Route exact path={step !== 2 ? '/' : '/form'}>
-                    <Form />
-                </Route>
+                <Route exact path={step !== 2 ? '/' : '/form'}></Route>
                 <Route exact path="/faq">
                     <FAQ />
                 </Route>
@@ -69,3 +67,5 @@ console.log('$$ |           \\$$$$$$  |\\$$$$$$  |\\$$$$$$$ |\\$$$$$$$\\');
 console.log('\\__|            \\______/  \\______/  \\_______| \\_______|');
 
 export default LandingPage;
+
+// <Form />
